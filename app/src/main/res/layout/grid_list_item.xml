@@ -14,12 +14,6 @@
         android:layout_width="274dp"
         android:layout_height="449dp">
 
-        <!-- TODO: Create an ImageView resource for the image of the dog.
-
-
-               The scaleType should be set to centerCrop-->
-
-
         <ImageView
             android:id="@+id/dogImageView"
             android:layout_width="match_parent"
