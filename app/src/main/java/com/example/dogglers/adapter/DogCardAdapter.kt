@@ -58,12 +58,8 @@ class DogCardAdapter(
     override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
         val item = dataset[position]
         holder.dogImage?.setImageResource(item.imageResourceId)
-
-
-
-
-
-
-
+        holder.textName?.text = item.name
+        holder.textAge?.text = item.age
+        holder.textHobbies?.text = item.hobbies
     }
 }

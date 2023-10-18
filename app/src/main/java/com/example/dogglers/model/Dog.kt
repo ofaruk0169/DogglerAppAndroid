@@ -22,7 +22,7 @@ import androidx.annotation.StringRes
  * A data class to represent the information presented in the dog card
  */
 data class Dog(
-     val imageResourceId: Int,
+     @DrawableRes val imageResourceId: Int,
      val name: String,
      val age: String,
      val hobbies: String
